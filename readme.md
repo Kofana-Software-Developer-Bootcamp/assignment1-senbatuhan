@@ -1,5 +1,5 @@
 # assignment1-senbatuhan
-1 assignment for Kofana Bootcamp
+First assignment for Kofana Bootcamp
 
 
 
