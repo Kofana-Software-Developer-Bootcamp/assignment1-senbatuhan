@@ -4,9 +4,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Patika Bootcamp Başvuru Formu</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="header">
+        <div class="headerText">
+          <h1>Patika Bootcamp Başvuru Formu</h1>
+        </div>
+      </div>
+      <hr />
+      <h1>Lütfen bilgileri eksiksiz doldurun</h1>
+      
+      
+      <h2>Hesap Bilgileriniz</h2>
+      <table>
+        <tr>
+          <td style="width: 150px">
+            <label for="email">Eposta: </label>
+          </td>
+          <td style="width: 50px"></td>
+          <td>
+          <td>
+            <input type="email" id="email" placeholder="Eposta adresinizi giriniz" />
+          </td>
+        </tr>
+       </table>
+      
+      <h2>Kişisel Bilgileriniz</h2>
+      
+      <table>
+        <tr>
+          <td style="width: 150px">
+            <label for="name">Adınız: </label>
+          </td>
+          <td style="width: 50px"></td>
+          <td>
+            <input type="text" id="name" placeholder="Adınızı giriniz" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="surname">Soyadınız: </label>
+          </td>
+          <td></td>
+          <td>
+            <input type="text" id="surname" placeholder="Soyadınızı giriniz" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="city">Şehir: </label>
+          </td>
+          <td></td>
+          <td>
+            <select id="city">
+              <option>Seçiniz</option>
+              <option>Ankara</option>
+              <option>İstanbul</option>
+              <option>İzmir</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="gender">Cinsiyet: </label>
+          </td>
+          <td></td>
+          <td>
+            <input type="radio" value="Erkek" name="gender" id="m">Erkek</input>
+            <input type="radio" value="Kadın" name="gender" id="f">Kadın</input>
+          </td>
+        </tr>
+      
+        <tr>
+          <td></td>
+          <td></td>
+          <td>
+              <button class="button" type="button"
+              onclick="console.log(logArray())">
+              Kaydet</button>
+          </td>
+        </tr>
+      </table>
 </body>
 </html>
