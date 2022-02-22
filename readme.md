@@ -1,5 +1,5 @@
 # assignment1-senbatuhan
-Kodluyoruz Eğitimi kapsamında açtığım ilk repo
+1 assignment for Kofana Bootcamp
 
 
 
