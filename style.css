@@ -35,9 +35,11 @@ body, html {
       font-size: 40px;;
   }
   h1{
+      text-align: center;
       color:blue;
   }
   h2{
+    text-align: center;
     color: blue;
   }
   .button {
@@ -54,4 +56,9 @@ body, html {
   .button:hover {
     background-color: #555;
     color: white;
+  }
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
   }
