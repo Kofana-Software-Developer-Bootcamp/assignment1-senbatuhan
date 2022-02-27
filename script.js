@@ -114,6 +114,7 @@ function logArray() {
     };
     logs.push(logObj);
     clearInputs(); //clear the inputs
+    alert("Kaydınız Başarı ile Alındı. Teşekkür ederiz :)");
     return logs; // return log array and write it on console
   } else {
     return "Error"; // if an error occurs, return Error
